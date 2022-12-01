@@ -1,0 +1,85 @@
+TEST AN INVALID FILE.
+Unable to open the file.
+_________________________________________
+PRINT AN INVALID MAZE.
+Unable to open the file.
+*: Part of the Path to Exit
++: Visited Square (Not part of the path to exit)
+_________________________________________
+PRINT A VALID MAZE.
+xxxxxxxxxxxxxxxxxx x
+x     x       xxxx x
+x xxxxx  xxxxx  xx x
+x xxxxx xxxxxxx xx x
+x x          xx xx x
+x xxxxxxxxxx xx    x
+xxxxxxxxxxxxxxxxxxxx
+*: Part of the Path to Exit
++: Visited Square (Not part of the path to exit)
+_________________________________________
+CHECKS WHAT HAPPENS IF CREATURE IS IN AN INVALID SPOT.
+ALSO PRINT CREATURE LOCATION.
+X
+C(0, 0)
+_________________________________________
+CHECK IF THE CREATURE CAN SOLVE A MAZE.
+SSSEEENNNNN
+xxxxxxxxxxxxxxxxxx*x
+x     x       xxxx*x
+x xxxxx  xxxxx *xx*x
+x xxxxx xxxxxxx*xx*x
+x x          xx*xx*x
+x xxxxxxxxxx xx****x
+xxxxxxxxxxxxxxxxxxxx
+*: Part of the Path to Exit
++: Visited Square (Not part of the path to exit)
+_________________________________________
+CHECK IF THE CREATURE CAN SOLVE A MAZE IF IT'S IN AN AREA THAT CAN'T GET TO THE EXIT.
+X
+xxxxxxxx x
+xxx+xxxx x
+x xxxxx  x
+x xxxxxx x
+xxxxxxxxxx
+*: Part of the Path to Exit
++: Visited Square (Not part of the path to exit)
+_________________________________________
+CHECK TO SEE WHAT HAPPENS IF CREATURE IS ALREADY AT THE EXIT.
+
+xxxxxxxx*x
+xxx xxxx x
+x xxxxx  x
+x xxxxxx x
+xxxxxxxxxx
+*: Part of the Path to Exit
++: Visited Square (Not part of the path to exit)
+_________________________________________
+CHECK TO SEE IF THE CREATURE CAN SOLVE A MAZE WITH NO TUNNELS.
+NNNNWSSSSWNNNWSSSWNNWNNWSSSSES
+xxxxxxxxxx
+x**xxx**+x
+x**x****+x
+x*******+x
+x*+*****+x
+x*******+x
+xx*xxxxxxx
+*: Part of the Path to Exit
++: Visited Square (Not part of the path to exit)
+_________________________________________
+CHECK TO SEE WHAT WILL HAPPEN IF CREATURE IS IN A MAZE WITH NO EXITS.
+X
+xxxxxxxxxx
+x++xxx+++x
+x++x+++++x
+x++++++++x
+x++++++++x
+x++++++++x
+xxxxxxxxxx
+*: Part of the Path to Exit
++: Visited Square (Not part of the path to exit)
+_________________________________________
+CHECK TO SEE WHAT WILL HAPPENS IF CREATURE STARTING LOCATION IS OUT OF BOUNDS.
+--> IF Y COORD IS OUT OF BOUNDS.
+X
+--> IF X COORD IS OUT OF BOUNDS.
+X

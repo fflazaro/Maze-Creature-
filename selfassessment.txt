@@ -1,0 +1,31 @@
+CSS342 Homework Self-Assessment
+
+Name:Franchesca Lazaro
+
+
+Do you have test functions testing all your functions?
+I think I tested all of the functions. I didn't test every single method of the maze/creature class. I 
+tested the classes based on whether the creature would properly solve the maze or not. 
+
+complete and correct programs:  40/ 50
+
+
+Does your program compile without warnings? Are there any blocks of
+repeated code that can be simplified?
+The program didn't compile without warnings; I didn't use some of the methods though even though my creature
+can still solve the maze. I think some repeated code could be simplified, but Clion would not let me 
+properly fix the functions in the main section. 
+
+good programming practices:   25  / 30
+
+Do you have comments for each class both in the header and
+implementation file? Does each variable and function have an
+associated comment? Is your program properly indented? See "Code Style
+Examples - Snippets" under C++ Resources for some common problems. For
+example, all file names have to be in lowercase, all class names are
+capitalized, need to have spaces after comments, stick to maximum 80
+characters per line, space between operators, etc.
+
+
+
+code that is easy to understand:     15/ 20
